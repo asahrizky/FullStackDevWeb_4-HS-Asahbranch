@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Hotel Amenities</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ales: "#F6F2E4",
+              alestext: "#6E7E2B",
+              alesph: "#7D794F",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="bg-ales h-screen w-auto">
+      <div class="flex">
+        <div class="w-[660px] h-[404px]">
+          <img
+            class="py-8"
+            src="img/Rectangle 7.png"
+            alt=""
+            class="w-full h-full"
+          />
+        </div>
+        <div
+          class="absolute bg-white w-[712px] h-[286px] flex flex-col justify-center gap-8 left-[600px] top-[100px] pl-20 border-[2px]"
+        >
+          <h3 class="text-alestext"><b>About Allegrini</b></h3>
+          <p class="text-alesph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            in, doloribus magnam nam voluptatum cum expedita laboriosam cumque
+            id quia laudantium eos reprehenderit praesentium dolores repellendus
+            earum. Architecto, doloribus ex.
+          </p>
+          <a class="text-alestext" href=""
+            ><b><u>Read More</u></b></a
+          >
+        </div>
+      </div>
+
+      <div class="flex">
+        <img class="py-16" src="img/Line 1.svg" alt="" />
+        <h3 class="py-14 px-6"><b>Our Partners</b></h3>
+      </div>
+
+      <div class="flex">
+        <img class="px-2" src="img/partner1.png" alt="" />
+        <img class="px-4" src="img/partner2.png" alt="" />
+        <img class="px-6" src="img/partner3.png" alt="" />
+        <img class="px-8" src="img/partner4.png" alt="" />
+        <img src="img/partner5.png" alt="" />
+      </div>
+    </div>
+
+    <p class="text-xl font-bold mb-2 text-center text-lime-600">
+      Oliva del Mediterraneo
+    </p>
+    <div class="flex nowrap">
+      <hr
+        class="w-24 h-1 my-4 bg-gray-100 border-0 md:my-10 dark:bg-lime-600"
+      />
+      <p class="ml-7 my-7 text-xl font-bold mb-2 text-lime-600">
+        Our Collection
+      </p>
+    </div>
+
+    <div class="flex overflow-x-scroll">
+      <div class="flex flex-nowrap">
+        <div class="grid p-4 m-2 w-80 h-100 bg-amber-50 shadow-md rounded-xl">
+          <img src="img/love.png" />
+          <img class="mx-auto" src="img/shampoo.png" />
+          <h1 class="mt-4 mb-2 text-xl font-bold text-center text-lime-600">
+            Shampoo - 30 ml
+          </h1>
+          <p class="text-sm text-lime-600 text-center">4$</p>
+        </div>
+
+        <div class="grid p-4 m-2 w-80 h-100 bg-amber-50 shadow-md rounded-xl">
+          <img src="img/love.png" />
+          <img class="mx-auto" src="img/shower_gel.png" />
+          <h1 class="mt-4 mb-2 text-xl font-bold text-center text-lime-600">
+            Shower Gel - 30 ml
+          </h1>
+          <p class="text-sm text-lime-600 text-center">4$</p>
+        </div>
+
+        <div class="grid p-4 m-2 w-80 h-100 bg-amber-50 shadow-md rounded-xl">
+          <img src="img/love.png" />
+          <img class="mx-auto" src="img/body_lotion.png" />
+          <h1 class="mt-4 mb-2 text-xl font-bold text-center text-lime-600">
+            Body Lotion - 30 ml
+          </h1>
+          <p class="text-sm text-lime-600 text-center">4$</p>
+        </div>
+
+        <div class="grid p-4 m-2 w-80 h-100 bg-amber-50 shadow-md rounded-xl">
+          <img src="img/love.png" />
+          <img class="mx-auto" src="img/hair_conditioner.png" />
+          <h1 class="mt-4 mb-2 text-xl font-bold text-center text-lime-600">
+            Hair Conditioner - 30 ml
+          </h1>
+          <p class="text-sm text-lime-600 text-center">4$</p>
+        </div>
+
+        <div class="grid p-4 m-2 w-80 h-100 bg-amber-50 shadow-md rounded-xl">
+          <img src="img/love.png" />
+          <img class="mx-auto" src="img/soap.png" />
+          <h1 class="mt-4 mb-2 text-xl font-bold text-center text-lime-600">
+            Soap - 20 gr
+          </h1>
+          <p class="text-sm text-lime-600 text-center">3$</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-row-reverse">
+      <p class="mx-2 my-7 text-xl font-bold text-right mb-2 text-lime-600">></p>
+      <p class="mx-2 my-7 text-xl font-bold text-right mb-2 text-lime-600"><</p>
+      <p
+        class="mx-2 my-7 text-xl font-bold text-right mb-2 underline text-lime-600"
+      >
+        Shop all
+      </p>
+    </div>
+  </body>
+</html>
